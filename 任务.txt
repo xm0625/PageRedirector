@@ -1,0 +1,7 @@
+帮我使用Golang（go 1.20）编写一个程序，从环境变量中取PR_PORT, http监听PR_PORT的value值，
+如果PR_PORT不存在或者PR_PORT为空，或者解析数字失败，则使用默认值2445.
+实现的功能如下：
+http://localhost:2445/?url=http%3A%2F%2Fwww.baidu.com%2F%26wd%3Dtest
+读取url参数，value值为encodeUrl后的值，先进行decodeUrl，得到需要302跳转的网址，进行302返回。
+
+请编写完成并自行进行测试
